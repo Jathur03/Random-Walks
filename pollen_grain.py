@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from random_walk import RandomWalk
 
 # make a random walk using the random walk class
-rw = RandomWalk()
+rw = RandomWalk(50000)
 rw.fill_walk()
 
 # plotting the points
